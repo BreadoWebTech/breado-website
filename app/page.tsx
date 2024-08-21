@@ -54,7 +54,7 @@ export default function Home() {
               The languages I know are Python , JS, batch, bash, HTML and CSS ( yeah, I know, those arent languages...). Im also fairly decent at C / Cpp, and have some experience with x86 64bit Assembly. <br /> <br />
             </p>
             <p className="text-xl leading-relaxed">
-              I'm currently learning how to developer Kernel Mode Drivers for NT using the KMDF. <br />
+              I'm currently learning how to develop Kernel Mode Drivers for NT using the KMDF. <br />
               I do have other hobbies than coding, I enjoy doing calisthenics and love playing Minecraft and Overwatch 2 <br />( Can one even enjoy playing Overwatch ? )
             </p>
 
