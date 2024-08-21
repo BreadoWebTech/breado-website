@@ -1,5 +1,5 @@
 'use client'
-
+import Head from 'next/head';
 import React from 'react'
 import { useState } from 'react'
 import { Button} from '@/components/ui/button'
@@ -24,6 +24,12 @@ export default function Home() {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
+      <Head>
+        <title>About me - Breado</title>
+        <meta property="og:title" content="About me - Breado" />
+        <meta property="og:description" content="Learn about me and my projects" />
+        <meta property="og:url" content="https://breadowebtech.github.io/breado-website/" />
+      </Head>
       <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
         <div className="container mx-auto p-4 space-y-8 max-w-6xl">
           {/* Toggle Dark Mode */}
